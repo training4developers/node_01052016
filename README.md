@@ -54,9 +54,11 @@ Tell me about you JavaScript and Node.js experience, and one thing you hope to g
 	- Sending Email Messages
 	- RabbitMQ
 - Unit Testing
+	- Karma
 	- Mocha
 	- Chai
 	- Sinon
+	- Istanbul
 
 ## Useful Links
 - [Use Git over HTTPS to circumvent firewall issues.](http://jgoodall.me/posts/2013/05/29/git-use-https/)
