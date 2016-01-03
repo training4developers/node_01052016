@@ -1,4 +1,4 @@
-# Welcome to Introduction to Node.js!
+# Welcome to Server-side JavaScript with Node.js and Express!
 
 ## Instructor
 
