@@ -29,36 +29,41 @@ Tell me about you JavaScript and Node.js experience, and one thing you hope to g
 - Node Package Manager
 	- Installing / Removing Packages
 	- NPM Repository
+	- Gulp
+		- Installing
+		- Setting up a Gulp File
+		- Task Dependencies
+- Unit Testing
+	- Karma
+	- Mocha
+	- Chai
+	- Istanbul
 - Building a Simple Web Server
 	- HTTP Module
-	- File System Module
-	- Command Line Arguments
 	- Creating Modules
-- Gulp
-	- Installing
-	- Setting up a Gulp File
-	- Enhance Web Simple Web Server App to use Gulp
 - Using Express
-	- Building a REST Service
+	- Routes
+	- Params, Query String, Form Values
+	- Build a REST Service
 
 ### Day 2
 
+- File System
+	- Working with Paths
+	- File Exists
+	- Reading/Writing a File
+	- Load server configuration from a file
 - Events
 	- EventEmitter
 	- Event Driven Programming
 - Streams
 	- Overview
-	- Using with Gulp
 - Third Party Services
 	- Sending SMS Messages
 	- Sending Email Messages
 	- RabbitMQ
-- Unit Testing
-	- Karma
-	- Mocha
-	- Chai
-	- Sinon
-	- Istanbul
+- Class Project
+	- Build a web application which has a form for sending Email/SMS messages using RabbitMQ
 
 ## Useful Links
 - [Use Git over HTTPS to circumvent firewall issues.](http://jgoodall.me/posts/2013/05/29/git-use-https/)
