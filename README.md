@@ -26,6 +26,7 @@ Tell me about you JavaScript and Node.js experience, and one thing you hope to g
 	- Install Node.js
 	- JavaScript Review (as needed)
 	- ES6 and Node.js
+	- Node Inspector
 - Node Package Manager
 	- Installing / Removing Packages
 	- NPM Repository
@@ -71,3 +72,4 @@ Tell me about you JavaScript and Node.js experience, and one thing you hope to g
 - [Setting up file system permissions to install packages globally without sudo.](https://docs.npmjs.com/getting-started/fixing-npm-permissions)
 - [Node.js version manager to manage multiple versions of Node.js.](https://github.com/creationix/nvm)
 - [JS Hint Options](http://jshint.com/docs/options/)
+- [Turning buffers into streams.](http://www.bennadel.com/blog/2681-turning-buffers-into-readable-streams-in-node-js.htm)
