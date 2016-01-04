@@ -65,3 +65,4 @@ Tell me about you JavaScript and Node.js experience, and one thing you hope to g
 - [JavaScript Tutorial Videos](http://www.toptal.com/videos)
 - [Setting up file system permissions to install packages globally without sudo.](https://docs.npmjs.com/getting-started/fixing-npm-permissions)
 - [Node.js version manager to manage multiple versions of Node.js.](https://github.com/creationix/nvm)
+- [JS Hint Options](http://jshint.com/docs/options/)
