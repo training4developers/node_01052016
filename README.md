@@ -9,10 +9,10 @@
 Tuesday - Wednesday: 9am to 5pm
 
 Breaks:
-  Morning: 10:25am to 10:35am
-  Lunch: Noon to 1pm
-  Afternoon #1: 2:20pm to 2:30pm
-  Afternoon #2: 3:40pm to 3:50pm
+- Morning: 10:25am to 10:35am
+- Lunch: Noon to 1pm
+- Afternoon #1: 2:20pm to 2:30pm
+- Afternoon #2: 3:40pm to 3:50pm
 
 ## Class Introductions
 
