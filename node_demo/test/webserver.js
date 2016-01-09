@@ -10,9 +10,11 @@ describe("web server", function() {
 	beforeEach(function(done) {
 
 		app.start({
-			port: 8080
+			webServer: {
+				rootFolder: "app/www",
+				port: 8080
+			}
 		}, function() {
-			console.log("starting the web server");
 			done();
 		});
 
@@ -23,38 +25,41 @@ describe("web server", function() {
 		request("http://localhost:8080", function(err, response, body) {
 
 			assert.isNull(err);
-			assert.equal(body, "demo web server");
+			assert.isNotNull(body);
 			done();
 
 		});
 
 	});
 
-	it("load homepage 2", function (done) {
+	it("load employees", function (done) {
 
-		request("http://localhost:8080", function(err, response, body) {
+		request("http://localhost:8080/api/employees", function(err, response, body) {
 
-			assert.isNull(err);
-			assert.equal(body, "demo web server");
+			var employees = JSON.parse(body);
+			assert.equal(5, employees.length);
+
 			done();
 
 		});
 
 	});
 
-	it("get options", function() {
+	it("load an employee", function (done) {
 
-		var options = app.getOptions();
+		request("http://localhost:8080/api/employees/2", function(err, response, body) {
 
-		assert.isNotNull(options);
-		assert.equal(options.port, 8080);
+			var employee = JSON.parse(body);
+			assert.equal(2, employee.id);
 
-	})
+			done();
 
+		});
+
+	});
 	afterEach(function(done) {
 
 		app.stop(function() {
-			console.log("stopping the web server");
 			done();
 		});
 
