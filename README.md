@@ -6,15 +6,15 @@
 
 ## Schedule
 
-	Tuesday - Wednesday: 9am to 5pm
+Tuesday - Wednesday: 9am to 5pm
 
-	Breaks:
-		Morning: 10:25am to 10:35am
-		Lunch: Noon to 1pm
-		Afternoon #1: 2:20pm to 2:30pm
-		Afternoon #2: 3:40pm to 3:50pm
+Breaks:
+- Morning: 10:25am to 10:35am
+- Lunch: Noon to 1pm
+- Afternoon #1: 2:20pm to 2:30pm
+- Afternoon #2: 3:40pm to 3:50pm
 
-## Class Introduction
+## Class Introductions
 
 Tell me about you JavaScript and Node.js experience, and one thing you hope to get out of this class...
 
